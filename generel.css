@@ -1,0 +1,76 @@
+h1 {
+  font-family: "Playfair Display";
+  font-size: 30px;
+  text-align: center;
+}
+
+a {
+  font-family: "Roboto";
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+p {
+  font-family: "Roboto";
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.menu {
+  text-align: center;
+}
+
+.nav_links ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav_links li {
+  margin-right: 30px;
+}
+
+/*Index*/
+.baggrundsbillede {
+  position: relative;
+  background: url("images/baggrundsbillede.webp") center/cover no-repeat;
+  height: 400px;
+  width: 100%;
+  color: black;
+}
+
+.tekstcontainer {
+  text-align: center;
+}
+
+h1 {
+  margin: 0; /* Fjerner standardmargin fra overskriften */
+}
+
+/*Billeder*/
+.grid1 {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.bredformat img {
+  width: 100%;
+}
+
+.portraet img {
+  width: 100%;
+  padding-top: 20px;
+}
+
+.hoejformat img {
+  width: 100%;
+  padding-top: 22px;
+}
+
+/*footer*/
+footer {
+  margin-top: 0;
+}
