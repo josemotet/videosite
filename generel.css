@@ -1,3 +1,10 @@
+img,
+video {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
 h1 {
   font-family: "Playfair Display";
   font-size: 30px;
@@ -68,6 +75,18 @@ h1 {
 .hoejformat img {
   width: 100%;
   padding-top: 22px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+/*video*/
+iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
 }
 
 /*footer*/
